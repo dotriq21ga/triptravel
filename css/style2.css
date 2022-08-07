@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.top .container .box{
+    display:flex;
+    justify-content:space-around;
+}
+.top .container .logo{
+    width: 434px;
+    height: 108px;
+    padding-right: 205px;
+}
+.top .container  .test{
+    width: 100%;
+    min-width: 30px;
+    height: 108px;
+}
+.top .container .adresse{
+    width: 308px;
+    height: 108px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #0338a8;
+    padding-top: 30px;
+}
+.top .container .adresse i{
+    padding-top: 2px;
+    float: left;
+    font-size: 1.125em;
+}
+.top .container .adresse h4{
+    font-weight: 700;
+    font-size: 1.125em;
+}
+.top .container .box .box-card{
+    width: 300px;
+    height: 69px;
+}
+.top .container .logo img{
+    width: 229px;
+}
+.menu-color{
+    background-color: #1cc995;
+}
+.menu .nav-block{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu .nav-block a{
+    color: white;
+}
+.menu .nav-block .nav-item{
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+}
+.menu .nav-block .nav-item:hover a{
+    color: #0a2166;
+}
+.menu .dropdown-hover{
+    line-height:35px;
+}
+.menu .dropdown-hover:hover{
+    background-color: #446084;
+    border-radius: 10px;
+} 
+.thumbnail img{    
+    width: 100%;
+}
+.header-box h2{
+    text-align: center;
+    font-size: 26px;
+}
+.row-1 .box{
+    display: inline-block;
+    width: 100%;
+    border-bottom:dotted 1px gray;
+    padding-bottom: 3rem;
+}
+.row-1 img{
+    width: 95%;
+}
+.row-1 .left{
+    float: left;
+}
+.row-1 .right{
+    float: right;
+}
+.row-1 input{
+    width: 40px;
+    height: 40px;
+}
+.row-1 button{
+    margin-left: 15px;
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: #0338a8;
+    color: white;
+}
+.row-1 .body-box{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: dotted 1px gray;
+}
+.row-2 .box{
+    padding-bottom: 5rem;
+    border-bottom:dotted 1px gray ;
+}
+.row-2 span{
+    line-height: 1.6;
+    font-weight: bolder;
+}
+.row-2 h6{
+    font-weight: bolder;
+}
+.row-3{
+    padding-top: 1rem;
+}
+
+.row-3 .box{
+    display: inline-block;
+}
+.row-3 img{
+    width: 50%;
+    float: left;
+}
+
+.row-3 .content{
+    float: right;
+    width: 50.1%;
+    background-color: #1111114f;
+    color: white;
+}
+.row-3 .column{
+    float: left;
+}
+.footer{
+    background-color: rgba(3, 168, 132, 0.8);
+}
+.footer .column{
+    float: left;
+}
+.footer .box{
+    display: inline-block;
+}
+.footer li{
+    padding-top: 10px;
+    list-style-type: none;
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer .column{
+    padding-left: 15px;
+}
+.footer h6{
+    font-weight: bold;
+}
+.footer input{
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #087d64;
+    border-bottom:solid white 1px ;
+}
+.footer input::placeholder{
+    color: white;
+}
+.footer button{
+    border: none;
+    background-color: #087d64;
+    width: 100px;
+    height: 40px;
+    border-bottom: white solid 1px;
+}
+
+@media (max-width: 767px) {
+	.top .test{
+        display: none;
+    }
+    .top .adresse{
+        display: none;
+    }
+    .top .logo{
+        padding-left: 105px;
+    }
+    .row-3 .content{
+        float: none;
+        background-color: #1111114f;
+        color: white;
+        width: 100%;
+    }
+    .row-3 img{
+        width: 100%;
+        float:none;
+    }
+    .row-3 .column{
+        width: 50%;
+        float: left;
+    }
+}
+@media (max-width: 500px) {
+	.top .test{
+        display: none;
+    }
+    .top .adresse{
+        display: none;
+    }
+    .top .logo{
+        padding-left: 105px;
+    }
+    .row-3 .content{
+        float: none;
+        background-color: #1111114f;
+        color: white;
+        width: 100%;
+    }
+    .row-3 img{
+        width: 100%;
+        float:none;
+    }
+    .row-3 .column{
+        width: 100%;
+        float: none;
+    }
+}
